@@ -6,14 +6,14 @@ import { Code, Palette, Globe, Users } from 'lucide-react';
 
 export default function AboutSection() {
     const skills = [
-        { name: 'JavaScript', level: 95, category: 'frontend' },
-        { name: 'React', level: 92, category: 'frontend' },
-        { name: 'TypeScript', level: 88, category: 'frontend' },
+        { name: 'Java', level: 95, category: 'backend' },
+        { name: 'JavaScript', level: 90, category: 'frontend' },
+        { name: 'TypeScript', level: 90, category: 'frontend' },
+        { name: 'CSS', level: 88, category: 'backend' },
+        { name: 'React', level: 85, category: 'frontend' },
         { name: 'Node.js', level: 85, category: 'backend' },
-        { name: 'Python', level: 82, category: 'backend' },
-        { name: 'Figma', level: 90, category: 'design' },
-        { name: 'UI/UX Design', level: 87, category: 'design' },
-        { name: 'AWS', level: 75, category: 'tools' },
+        { name: 'Python', level: 68, category: 'backend' },
+        { name: 'Figma', level: 60, category: 'design' },
     ];
 
     const services = [
@@ -40,7 +40,7 @@ export default function AboutSection() {
     ];
 
     return (
-        <section id="about" className="py-24 bg-white">
+        <section id="about" className="py-24 bg-[#f9f1e6]">
             <div className="container mx-auto px-6">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -54,9 +54,8 @@ export default function AboutSection() {
                     </h2>
                     <div className="w-20 h-1 bg-gradient-to-r from-purple-400 to-blue-500 mx-auto mb-8"></div>
                     <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                        I'm a passionate full-stack developer with 5+ years of experience creating digital solutions 
-                        that bridge the gap between design and functionality. I believe in writing clean, maintainable 
-                        code and creating user experiences that are both beautiful and intuitive.
+                    I am a passionate Computer Science student with a strong foundation in software development, data structures and algorithms, interesting in building a career in software engineering. I strive 
+                        to create solutions that are functional and efficient. 
                     </p>
                 </motion.div>
 
@@ -83,7 +82,7 @@ export default function AboutSection() {
                                             whileInView={{ width: `${skill.level}%` }}
                                             transition={{ duration: 1, delay: index * 0.1 }}
                                             viewport={{ once: true }}
-                                            className="bg-gradient-to-r from-purple-400 to-blue-500 h-2 rounded-full"
+                                            className="bg-gradient-to-r from-gray-400 to-slate-900 h-2 rounded-full"
                                         />
                                     </div>
                                 </div>
