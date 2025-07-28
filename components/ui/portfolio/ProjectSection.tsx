@@ -14,23 +14,35 @@ export default function ProjectsSection() {
             category: 'web',
             description: 'A management system for client, employee, and appointment tracking. Reduced manual workload by 30%.',
             technologies: ['Python', 'SQLAlchemy', 'Flask'],
-            image_url: 'https://via.placeholder.com/400',
+            image_url: '../mechanicShopDB.png',
             demo_url: '',
             github_url: 'https://github.com/kevcor13/DB450----final-Project-.git',
             completion_date: '2024-12-01',
         },
         {
             id: 2,
+            title: 'Booking Page',
+            category: 'web',
+            description: 'Program coordinator needed a booking page for students to schedule appointments. Built a booking page using React, Node.js, and Google scripts to make my own APIs, which allowed me to send reminder emails, and save aapointments to a google spreadsheet. ',
+            technologies: ['Java', 'Typescript', 'CSS', 'HTML', 'Google Scripts', 'python'],
+            image_url: '../calendar.png',
+            demo_url: 'https://tinting-booking-client.vercel.app/1221Czt7p3i1K9mnNG_tBFoU0X09U1b8zmS2oW1kBQZQ',
+            github_url: 'https://github.com/kevcor13/tinting_booking_client.git',
+            completion_date: '2025-12-01',
+        },
+        
+        {
+            id: 3,
             title: 'Social Media App',
             category: 'mobile',
-            description: 'A full-stack mobile app with authentication, sharing, and profile features.',
+            description: 'An Ongoing project to create a social media application with features like user profiles, posts, and comments. Main goal is to create an AI fitness app that will help users reach their fitness goal.',
             technologies: ['React Native', 'TypeScript', 'MongoDB', 'Node.js'],
-            image_url: 'https://via.placeholder.com/400',
+            image_url: '../socialMediaApp.png',
             demo_url: '',
-            github_url: 'https://github.com/yourusername/social-media-app',
+            github_url: 'https://github.com/kevcor13/AnkyrApp.git',
             completion_date: '2025-06-01',
         },
-        // Add more projects here as needed
+        
     ];
 
     const filteredProjects =
@@ -52,7 +64,7 @@ export default function ProjectsSection() {
                             <img
                                 src={project.image_url}
                                 alt={project.title}
-                                className="w-full h-48 object-cover"
+                                className="w-full h-50 object-cover"
                             />
                             <CardContent className="p-4 space-y-3">
                                 <div className="flex justify-between items-center">
