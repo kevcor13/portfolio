@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Code, Palette, Globe, Users } from 'lucide-react';
+import { Code, WifiCog , Globe, Users } from 'lucide-react';
 
 export default function AboutSection() {
     const skills = [
@@ -23,19 +23,19 @@ export default function AboutSection() {
             description: 'Building end-to-end web applications with modern technologies and best practices.',
         },
         {
-            icon: Palette,
-            title: 'UI/UX Design',
-            description: 'Creating intuitive and beautiful user interfaces that provide exceptional user experiences.',
+            icon: WifiCog,
+            title: 'IT support',
+            description: 'Currently exploring and developing my skills in IT support. I help find optimal solutions troubleshoot softwares, and make sure everything is running smoothly ',
         },
         {
             icon: Globe,
-            title: 'Web Performance',
-            description: 'Optimizing applications for speed, accessibility, and search engine visibility.',
+            title: 'Web Development',
+            description: 'Develop web application that give solutions or personal projects such as Booking websites, business websites, etc.',
         },
         {
             icon: Users,
             title: 'Team Leadership',
-            description: 'Leading development teams and mentoring junior developers to achieve project goals.',
+            description: 'Leading a hispanic community to succeed in their career as well as following their faith in the college campus. ',
         },
     ];
 
@@ -52,7 +52,7 @@ export default function AboutSection() {
                     <h2 className="text-4xl md:text-5xl font-light text-slate-800 mb-6">
                         About Me
                     </h2>
-                    <div className="w-20 h-1 bg-gradient-to-r from-purple-400 to-blue-500 mx-auto mb-8"></div>
+                    <div className="w-20 h-1 bg-black mx-auto mb-8"></div>
                     <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
                     I am a passionate Computer Science student with a strong foundation in software development, data structures and algorithms, interesting in building a career in software engineering. I strive 
                         to create solutions that are functional and efficient. 
@@ -111,7 +111,7 @@ export default function AboutSection() {
                                     <Card className="p-6 hover:shadow-lg transition-shadow duration-300 border-0 bg-slate-50">
                                         <CardContent className="p-0">
                                             <div className="flex items-start space-x-4">
-                                                <div className="p-3 bg-gradient-to-br from-purple-400 to-blue-500 rounded-xl">
+                                                <div className="p-3 bg-black rounded-xl">
                                                     <service.icon className="w-6 h-6 text-white" />
                                                 </div>
                                                 <div>
@@ -131,7 +131,7 @@ export default function AboutSection() {
                     </motion.div>
                 </div>
 
-                {/* Stats Section */}
+                {/* Stats Section 
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -142,8 +142,6 @@ export default function AboutSection() {
                     {[
                         { number: '50+', label: 'Projects Completed' },
                         { number: '5+', label: 'Years Experience' },
-                        { number: '20+', label: 'Happy Clients' },
-                        { number: '100%', label: 'Success Rate' },
                     ].map((stat, index) => (
                         <div key={stat.label} className="text-center">
                             <div className="text-3xl md:text-4xl font-bold text-slate-800 mb-2">
@@ -152,7 +150,7 @@ export default function AboutSection() {
                             <div className="text-slate-600">{stat.label}</div>
                         </div>
                     ))}
-                </motion.div>
+                </motion.div> */}
             </div>
         </section>
     );

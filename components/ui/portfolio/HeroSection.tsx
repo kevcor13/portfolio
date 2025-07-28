@@ -32,9 +32,9 @@ export default function HeroSection() {
                             transition={{ duration: 0.6, delay: 0.2 }}
                             className="inline-block"
                         >
-                            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-purple-400 to-blue-500 p-1 shadow-2xl">
+                            <div className="w-32 h-32 mx-auto rounded-full bg-black p-1 shadow-2xl">
                                 <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                                    <span className="text-4xl font-bold text-slate-700">JD</span>
+                                    <span className="text-4xl font-bold text-slate-700">KC</span>
                                 </div>
                             </div>
                         </motion.div>
@@ -57,7 +57,7 @@ export default function HeroSection() {
                                 className="space-y-4"
                             >
                                 <h2 className="text-2xl md:text-3xl text-[#f9f1e6] font-light">
-                                    Full Stack Developer & UI/UX Designer
+                                   Computer Science Student at University of St. Thomas 
                                 </h2>
                                 
                                 <div className="flex flex-wrap justify-center gap-2">
@@ -71,7 +71,7 @@ export default function HeroSection() {
                                         TypeScript
                                     </Badge>
                                     <Badge variant="outline" className="bg-[#f9f1e6] text-slate-700 border-slate-900">
-                                        Design Systems
+                                        Data Structures
                                     </Badge>
                                 </div>
                             </motion.div>
@@ -84,8 +84,9 @@ export default function HeroSection() {
                             transition={{ duration: 0.8, delay: 0.8 }}
                             className="text-xl text-[#f9f1e6] max-w-2xl mx-auto leading-relaxed"
                         >
-                            I craft beautiful, intuitive digital experiences that solve real problems. 
-                            Passionate about clean code, elegant design, and creating products that users love.
+                             I'm passionate about
+                            writing clean and efficient code and designing user-friendly applications. My goal is to become a 
+                            Software Engineer and contribute to innovative projects that make a difference.
                         </motion.p>
 
                         {/* Action Buttons */}

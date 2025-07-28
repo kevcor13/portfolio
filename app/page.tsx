@@ -19,7 +19,7 @@ export default function Portfolio() {
         <div className="min-h-screen">
             <HeroSection />
             <AboutSection />
-            {/*<ProjectsSection />*/}
+            <ProjectsSection />
             <ContactSection />
         </div>
     );
