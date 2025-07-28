@@ -69,12 +69,12 @@ export default function ContactSection() {
                     className="text-center mb-16"
                 >
                     <h2 className="text-4xl md:text-5xl font-light mb-6 text-[#f9f1e6]">
-                        Let's Work Together
+                        Contact Me 
                     </h2>
                     <div className="w-20 h-1 bg-black mx-auto mb-8"></div>
                     <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
                         I'm always excited to take on new challenges and collaborate on innovative projects. 
-                        Let's discuss how we can bring your ideas to life.
+                        
                     </p>
                 </motion.div>
 
@@ -90,7 +90,6 @@ export default function ContactSection() {
                         <div>
                             <h3 className="text-2xl font-semibold text-[#f9f1e6] mb-6">Get In Touch</h3>
                             <p className="text-white leading-relaxed mb-8">
-                                Ready to start a project or just want to chat? I'd love to hear from you. 
                                 Send me a message and I'll respond as soon as possible.
                             </p>
                         </div>
